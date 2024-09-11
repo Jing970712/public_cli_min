@@ -30,6 +30,7 @@ describe("test/public-jiang-stylelint-config.js", () => {
       configFile: path.join(__dirname, "../index.js"),
       files: filePaths,
       fix: false,
+      customSyntax: "postcss-scss", // 对于 Sass 文件
     });
 
     if (result && result.errored) {
@@ -50,6 +51,7 @@ describe("test/public-jiang-stylelint-config.js", () => {
       configFile: path.join(__dirname, "../index.js"),
       files: filePaths,
       fix: false,
+      customSyntax: "postcss-less", // 对于 less 文件
     });
 
     if (result && result.errored) {

@@ -21,14 +21,16 @@
   "devDependencies": {
     "jest": "^29.5.0",
     "stylelint": "^14.3.0",
-    "stylelint-scss": "^4.1.0"
+    "stylelint-scss": "^4.1.0",
+    "postcss-scss": "^4.0.9",
+    "postcss-less": "^6.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://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@github.com/Jing970712/public_cli_min.git"
   },
   "scripts": {
-    "test": "node ./__tests__/public-jiang-stylelint-config.test.js"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/Jing970712/public_cli_min/issues"
