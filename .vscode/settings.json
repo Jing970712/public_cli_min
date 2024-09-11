@@ -1,12 +1,16 @@
 {
   "cSpell.words": [
+    "ampproject",
     "commitlint",
     "conventionalcommits",
     "Jiang",
+    "markdownlint",
     "preinstall",
     "Qian",
+    "rimraf",
     "stylelint",
     "Taobao",
+    "typedoc",
     "vuepress"
   ],
   "git.ignoreLimitWarning": true
