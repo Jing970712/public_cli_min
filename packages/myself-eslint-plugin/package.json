@@ -1,0 +1,40 @@
+{
+  "name": "myself-eslint-plugin",
+  "version": "0.0.1",
+  "description": "自定义eslint插件",
+  "author": "JiangYiQian <10811664+jiangyiqian@user.noreply.gitee.com>",
+  "homepage": "https://github.com/Jing970712/public_cli_min#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "files": [
+    "configs/",
+    "rules/",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Jing970712/public_cli_min.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm run test"
+  },
+    "dependencies": {
+    "fs-extra": "^9.0.1",
+    "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "jest": "^26.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Jing970712/public_cli_min/issues"
+  }
+}
